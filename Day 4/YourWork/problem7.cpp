@@ -5,7 +5,7 @@ int main() {
     vector<pair<int, int> > v; 
     v.push_back(make_pair(2, 50));
     v.push_back(make_pair(1, 90));
-    v.push_back(make_pair(2, 30)); // Has same first element as (2, 50)
+    v.push_back(make_pair(2, 30)); 
     v.push_back(make_pair(1, 40));
     
     sort(v.begin(), v.end());
